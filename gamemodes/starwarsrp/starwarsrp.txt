@@ -1,0 +1,15 @@
+"starwarsrp"
+{
+	"base"		"sandbox"
+    "title"  "starwarsrp"
+    "version"   "2.7.0"
+    "menusystem"	"1"
+
+    "author_name"   ""
+    "author_email"  ""
+    "author_url"    ""
+
+    "icon"  "gamemodes/starwarsrp/icon24.png"
+    "info"  ""
+    "hide"  "0"
+}

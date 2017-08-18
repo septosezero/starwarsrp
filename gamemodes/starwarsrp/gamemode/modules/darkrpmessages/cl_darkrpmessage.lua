@@ -3,7 +3,7 @@ local MotdMessage =
 
 
 ---------------------------------------------------------------------------
-            DarkRP Message of the day!
+            Star Wars RP Message of the day!
 ---------------------------------------------------------------------------
 ]]
 
@@ -19,7 +19,7 @@ local function receiveMOTD(html, len, headers, code)
 end
 
 local function showMOTD()
-    http.Fetch("https://raw.github.com/FPtje/DarkRPMotd/master/motd.txt", receiveMOTD, fn.Id)
+    http.Fetch("https://raw.github.com/cactusadmin/starwarsrp_experimental_v2/", receiveMOTD, fn.Id)
 end
 timer.Simple(5, showMOTD)
 

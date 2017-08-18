@@ -19,7 +19,7 @@ local function receiveMOTD(html, len, headers, code)
 end
 
 local function showMOTD()
-    http.Fetch("https://raw.github.com/cactusadmin/starwarsrp_experimental_v2/", receiveMOTD, fn.Id)
+    http.Fetch("https://raw.githubusercontent.com/cactusadmin/starwarsrp_experimental_v2/master/motd.txt", receiveMOTD, fn.Id)
 end
 timer.Simple(5, showMOTD)
 

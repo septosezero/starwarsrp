@@ -54,9 +54,9 @@ local my_language = {
     deducted_money = "Deducted %s",
     need_money = "Need %s",
 
-    payday_message = "Payday! You received %s!",
-    payday_unemployed = "You received no salary because you are unemployed!",
-    payday_missed = "Pay day missed! (You're Arrested)",
+    payday_message = "You have credits! You received %s for your service!",
+    payday_unemployed = "You received no credits for your service because you are a cadet!",
+    payday_missed = "You missed your credits for your service because you are in prison!",
 
     property_tax = "Property tax! %s",
     property_tax_cant_afford = "You couldn't pay the taxes! Your property has been taken away from you!",
